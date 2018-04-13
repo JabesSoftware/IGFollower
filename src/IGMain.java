@@ -2,8 +2,18 @@
 public class IGMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		
+		//connect to IG
+		
+		
+		//actions to do on IG
+		
+		
+		//options on IG such as auto swapping accounts
+		
+		
+		
 	}
 
 }
