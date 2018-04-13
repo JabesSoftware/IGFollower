@@ -7,7 +7,7 @@ public class IGMain {
 		//connect to IG
 		
 		
-		//actions to do on IG
+		//actions to perform on IG
 		
 		
 		//options on IG such as auto swapping accounts
