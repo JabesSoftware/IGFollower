@@ -12,5 +12,8 @@
 	<classpathentry kind="lib" path="C:/Users/callaggabr/Desktop/selenium-java-3.11.0/libs/httpcore-4.4.6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/callaggabr/Desktop/selenium-java-3.11.0/libs/okhttp-3.9.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/callaggabr/Desktop/selenium-java-3.11.0/libs/okio-1.13.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/callaggabr/Desktop/selenium-java-3.11.0/client-combined-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/callaggabr/Desktop/selenium-java-3.11.0/client-combined-3.11.0-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
