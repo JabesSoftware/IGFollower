@@ -1,6 +1,3 @@
-import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,9 +10,12 @@ public class actionsOnIG {
 
 	public static void follow100() throws InterruptedException{
 
-	
+		String IGLocation = "https://www.instagram.com/accounts/login/?hl=en&source=auth_switcher";
 
-		WebElement followButton = driverIG.getDriver().findElement(By.xpath("/html/body/div[4]/div/div[2]/div/div[2]/ul/div/li[1]/div/div[2]/span/button"));
+		connectToIG connected = new connectToIG();
+		WebDriver driverIG = connected.driverConnect(IGLocation);
+
+		WebElement followButton = driverIG.findElement(By.xpath("/html/body/div[4]/div/div[2]/div/div[2]/ul/div/li[1]/div/div[2]/span/button"));
 		for (int i = 0; i <=3; i++){
 			followButton.click();
 			Thread.sleep(1000);
